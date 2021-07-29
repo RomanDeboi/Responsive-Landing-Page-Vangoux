@@ -1,6 +1,7 @@
-@import 'variables.scss', 'common.scss', 'header.scss', 'headline.scss',
-  'reviews.scss', 'workflow.scss', 'features.scss', 'users.scss',
-  'purposes.scss', 'consultation.scss', 'stories.scss', 'page-footer.scss';
+@import 'variables.scss', 'breakpoints.scss', 'common-styles.scss',
+  'header.scss', 'headline.scss', 'reviews.scss', 'workflow.scss',
+  'features.scss', 'users.scss', 'purposes.scss', 'consultation.scss',
+  'stories.scss', 'page-footer.scss';
 * {
   box-sizing: border-box;
 }

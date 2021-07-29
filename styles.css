@@ -5,9 +5,9 @@
   text-transform: uppercase;
   line-height: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
-  background-color: #1968FC;
+  background-color: #1968fc;
   border: none;
   box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
 }
@@ -166,7 +166,7 @@
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .reviews {
@@ -248,7 +248,7 @@
   height: 2px;
   margin: 10px 0 0 0;
   box-sizing: border-box;
-  border: 1px solid #1968FC;
+  border: 1px solid #1968fc;
   box-shadow: 0px 2px 0px #D1E1FE;
 }
 .workflow__steps {
@@ -278,7 +278,7 @@
   height: 40px;
   flex: 0 0 auto;
   box-sizing: border-box;
-  border: 2px dashed #1968FC;
+  border: 2px dashed #1968fc;
   margin: 0 0 0 59px;
 }
 @media screen and (min-width: 1024px) {
@@ -301,7 +301,7 @@
   padding: 40px;
   position: relative;
   flex: 0 0 auto;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
 @media screen and (min-width: 1024px) {
@@ -323,7 +323,7 @@
   font-size: 18px;
   line-height: 40px;
   text-transform: uppercase;
-  color: #1967FA;
+  color: #1967fa;
 }
 .workflow-step__description {
   margin-top: 10px;
@@ -362,27 +362,32 @@
   line-height: 60px;
   text-transform: uppercase;
 }
+@media screen and (min-width: 1024px) {
+  .features__title {
+    margin: 0 0 0 40px;
+  }
+}
 .features__decoration-line {
   width: 80px;
   height: 2px;
   margin: 10px 0 0 0;
   flex: 0 0 auto;
   box-sizing: border-box;
-  border: 1px solid #1968FC;
-  box-shadow: 0px 2px 0px #D1E1FE;
+  border: 1px solid #1968fc;
+  box-shadow: 0px 2px 0px #d1e1fe;
 }
 .features__list {
   margin-top: 48px;
 }
 @media screen and (min-width: 1024px) {
   .features__list {
-    margin: 48px 0 0 0;
+    margin: 48px 0 0 40px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
   }
 }
-.features__list-item:nth-of-type(n+2) {
+.features__list-item:nth-of-type(n + 2) {
   margin-top: 60px;
 }
 @media screen and (min-width: 1024px) {
@@ -428,7 +433,7 @@
   flex: 0 0 auto;
   display: flex;
   align-items: center;
-  background: #F3F7FF;
+  background: #f3f7ff;
 }
 .feature__illustration {
   flex: 0 0 auto;
@@ -453,7 +458,7 @@
   padding: 30px 40px;
   font-size: 16px;
   line-height: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 @media screen and (min-width: 1024px) {
   .feature__description {
@@ -486,6 +491,9 @@
   display: none;
 }
 @media screen and (min-width: 1024px) {
+  .users__title {
+    margin: 0 0 0 40px;
+  }
   .users__title_desktop {
     display: block;
   }
@@ -498,8 +506,8 @@
   height: 2px;
   margin: 10px 0 0 0;
   box-sizing: border-box;
-  border: 1px solid #1968FC;
-  box-shadow: 0px 2px 0px #D1E1FE;
+  border: 1px solid #1968fc;
+  box-shadow: 0px 2px 0px #d1e1fe;
 }
 .users__list {
   margin-top: 28px;
@@ -508,7 +516,7 @@
 }
 @media screen and (min-width: 1024px) {
   .users__list {
-    margin: 38px 0 0 0;
+    margin: 38px 0 0 40px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -536,7 +544,7 @@
   height: 190px;
   padding: 20px;
   flex: 0 0 auto;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
 @media screen and (min-width: 1024px) {
@@ -551,7 +559,7 @@
   font-size: 20px;
   line-height: 40px;
   text-transform: uppercase;
-  color: #1967FA;
+  color: #1967fa;
 }
 .user__description {
   margin-top: 20px;
@@ -575,20 +583,25 @@
   line-height: 60px;
   text-transform: uppercase;
 }
+@media screen and (min-width: 1024px) {
+  .purposes__title {
+    margin: 0 0 0 40px;
+  }
+}
 .purposes__decoration-line {
   width: 80px;
   height: 2px;
   margin: 10px 0 0 0;
   box-sizing: border-box;
-  border: 1px solid #1968FC;
-  box-shadow: 0px 2px 0px #D1E1FE;
+  border: 1px solid #1968fc;
+  box-shadow: 0px 2px 0px #d1e1fe;
 }
 .purposes__list {
   margin-top: 38px;
 }
 @media screen and (min-width: 1024px) {
   .purposes__list {
-    margin: 38px 0 0 0;
+    margin: 38px 0 0 40px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -612,7 +625,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
 @media screen and (min-width: 1024px) {
@@ -644,7 +657,7 @@
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media screen and (min-width: 1024px) {
   .consultation__title {
@@ -657,7 +670,7 @@
   height: 2px;
   margin: 10px 0 0 0;
   box-sizing: border-box;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   box-shadow: 0px 2px 0px #6A9EFF;
 }
 .consultation__main-content {
@@ -674,14 +687,14 @@
   padding-right: 20px;
   font-size: 20px;
   line-height: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .consultation__button {
   width: 320px;
   height: 50px;
   margin-top: 40px;
   display: block;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.4);
   font-weight: 700;
   font-size: 14px;
@@ -689,7 +702,7 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #1968FC;
+  color: #1968fc;
 }
 .consultation__illustration {
   display: none;
@@ -705,7 +718,7 @@
 
 .stories {
   padding: 60px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 @media screen and (min-width: 1024px) {
   .stories {
@@ -729,7 +742,7 @@
   height: 2px;
   margin: 10px 0 0 0;
   box-sizing: border-box;
-  border: 1px solid #1968FC;
+  border: 1px solid #1968fc;
   box-shadow: 0px 2px 0px #D1E1FE;
 }
 .stories__story-cards {
@@ -794,7 +807,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  background: #FBFBFB;
+  background: #fbfbfb;
 }
 @media screen and (min-width: 1024px) {
   .page-footer {
@@ -882,7 +895,7 @@
   text-align: center;
   font-weight: 600;
   font-size: 14px;
-  color: #1968FC;
+  color: #1968fc;
 }
 
 * {
@@ -892,7 +905,7 @@
 html {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
-  color: #11223F;
+  color: #11223f;
 }
 
 .page {

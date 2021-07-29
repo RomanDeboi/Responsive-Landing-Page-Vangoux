@@ -1,8 +1,8 @@
-# Template with prices on product
+# Responsive Landing Page - Vangoux
 
-### [Site link](https://romandeboi.github.io/Gromcode/HTML_CSS/lesson25/index.html)
+### [Site link](https://romandeboi.github.io/Responsive-Landing-Page-Vangoux/index.html)
 
-Layout supports only desktop version
+Layout supports mobile (up-to-1023) and desktop (from-1024) versions
 
 ### The tech stack is:
 
